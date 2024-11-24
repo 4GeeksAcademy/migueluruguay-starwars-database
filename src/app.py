@@ -138,7 +138,6 @@ def add_character():
     new_character = Character(
         name=data["name"],
         description=data["description"],
-        # Añadir otros atributos aquí según lo necesites
     )
     db.session.add(new_character)
     db.session.commit()
@@ -152,7 +151,6 @@ def add_planet():
     new_planet = Planet(
         name=data["name"],
         description=data["description"],
-        # Añadir otros atributos aquí según lo necesites
     )
     db.session.add(new_planet)
     db.session.commit()
